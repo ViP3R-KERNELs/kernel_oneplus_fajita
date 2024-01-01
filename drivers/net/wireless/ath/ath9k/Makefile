@@ -1,3 +1,4 @@
+ccflags-y := -Werror $(call cc-disable-warning, constant-conversion )
 ath9k-y +=	beacon.o \
 		gpio.o \
 		init.o \
